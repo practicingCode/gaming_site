@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+		<script src="js/slippry.min.js"></script>
+        <a class = logo href = "home.html"><img src = "img/logo.png"></a>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/slippry.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" media="(max-width: 1024px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(max-width: 1366px)" href="css/desktop.css">
+        
+        
+    </head>
+  
+    
+
+    <body bgcolor = black>
+       <section class="demo_wrapper">
+           <article class="demo_block">
+            //slider content
+            <ul id ="demo1">
+                <li>
+                    <a href ="sandbox.html"><img src ="img/slidr1.jpg" alt = "Sandbox"></a>
+                </li>
+                <li>
+                    <a href ="#slide2"><img src ="img/slidr2.jpg" alt = "Action/adventure"></a>
+                </li>
+                <li>
+                    <a href ="#slide3"><img src ="img/slidr3.jpg" alt = "FPS"></a>
+                </li>
+            </ul>
+               
+            
+            <div class="topnav">
+               <a class ="active" src="home.html">Home</a>
+               <a href= "sandbox.html">Sandbox</a>
+               <a href="actionadventure.html">Adventure</a>
+               <a href="openworld.html">Open World</a>
+               <a href="Gallery.html">Gallery</a>
+               </div>
+           </article>
+        </section> 
+   
+        //script for slider
+        <script>
+        jQuery(document).ready(function(){
+            var demo1 = $("#demo1").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+        });
+    </script>
+        //articles
+        <article>
+           
+           
+               <div>
+                <a href="editorschoice.html" > <img class = "a-img" src= "img/img%204.jpg" ></a>
+                </div>
+            <div style = "color: white;">
+                    <div class ="a-title"> <H3>Prince of persia </H3> </div>
+                <div class ="a-content">
+                The latest game of 2017 Prince of persa forgotten sands is finally here! And the graphics is rad! It comes out in stores Jan 2018, the game follows the story off....
+                </div>
+            </div>
+          
+        </article>
+                <article>
+
+            
+                <div>
+                <a href="sandbox.html" > <img class = "a-img" src ="img/slidr1.jpg"></a>
+                </div>
+                <div style = "color: white;">
+                    <div class ="a-title"> <H3>7 days to die</H3> </div>
+                <div class ="a-content">
+                    7 days to die follows a man thrown into 1 of 4 environments with nothing and told to survive, the sanbox game allows you to explore the different climates in a single map and use what you can break down to build stuff.
+                </div>
+                </div>
+        </article>
+                <article>
+    
+                <div>
+                <a href="actionadventure.html" > <img class = "a-img" src ="img/slidr2.jpg"></a>
+                </div>
+                <div style = "color: white;">
+                    <div class ="a-title"> <H3>Naruto shippuden </H3> </div>
+                <div class ="a-content">
+                To all you naruto fans out there, the latest game invented by NR industries has brought back your favourite hokage with a few new surprises, it follows an alternate timeline where naruto....
+                </div>
+                </div>
+        
+        </article>
+        
+        <div class="social">
+            <a href="http://www.twitter.com"> <img src =img/tweet.png class = "socialm"></a>
+            <a href="http://www.facebook.com"><img src = "img/fb.png" class = "socialm"></a>
+            <a href="http://www.instagram.com"><img src ="img/inst.jpg" class = "socialm"></a>
+        
+        
+        </div>
+    </body>
+    <footer style = "color:white;">
+    
+        <a href = "Contactus.html"> Contact us</a>
+        <H5>Neverland all rights reserved </H5>
+    </footer>
+</html> 

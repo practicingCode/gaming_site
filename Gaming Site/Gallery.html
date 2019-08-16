@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+		<script src="js/slippry.min.js"></script>
+        <a class = logo href = "home.html"><img src = "img/logo.png"></a>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/slippry.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" media="(max-width: 1024px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(max-width: 1366px)" href="css/desktop.css">
+        
+        
+    </head>
+  
+    
+
+    <body bgcolor = black>
+       <section class="demo_wrapper">
+           <article class="demo_block">
+            //slider content
+            <ul id ="demo1">
+                <li>
+                    <a href ="sandbox.html"><img src ="img/slidr1.jpg" alt = "Sandbox"></a>
+                </li>
+                <li>
+                    <a href ="#slide2"><img src ="img/slidr2.jpg" alt = "Action/adventure"></a>
+                </li>
+                <li>
+                    <a href ="#slide3"><img src ="img/slidr3.jpg" alt = "FPS"></a>
+                </li>
+            </ul>
+               
+            
+            <div class="topnav">
+               <a href="home.html">Home</a>
+               <a href= "sandbox.html">Sandbox</a>
+               <a href="actionadventure.html">Adventure</a>
+               <a href="openworld.html">Open World</a>
+               <a class ="active">Gallery</a>
+               </div>
+           </article>
+        </section> 
+   
+        //script for slider
+        <script>
+        jQuery(document).ready(function(){
+            var demo1 = $("#demo1").slippry({
+					// transition: 'fade',
+					// useCSS: true,
+					// speed: 1000,
+					// pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+        });
+    </script>
+        //articles
+        <article>
+           
+           
+            <img class = "a-img" src= "img/img%204.jpg" >
+            
+            <img class = "a-img" src ="img/slidr1.jpg">
+                
+                <<img class = "a-img" src ="img/slidr2.jpg"> 
+        </article>
+        
+        <div class="social">
+        <img src =img/tweet.png class = "socialm">
+        <img src = "img/fb.png" class = "socialm">
+        <img src ="img/inst.jpg" class = "socialm">
+        
+        </div>
+    </body>
+    <footer style = "color:white;">
+    
+        <a href = "Contact us.html"> Contact us</a><H5>Neverland all rights reserved </H5>
+    </footer>
+</html> 
